@@ -5,8 +5,19 @@
     <title>8-Bit Inventory Launchpad</title>
     <script src="vendors/jquery-3.0.0.min.js" charset="utf-8"></script>
     <script src="scripts/8bitInventory.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>8-Bit Inventory Launchpad</h1>
+    <form method="post">
+        <input type="text" id="item" placeholder="Item">
+        <input type="text" id="color" placeholder="Color">
+        <input type="text" id="size" placeholder="Size">
+    </form>
+    <button type="button" id="searchButton">Search!</button>
+    <button type="button" id="postButton">Add!</button>
+    <div id="output"></div>
+    <p>Search Results:</p>
+    <div id="searchDiv"></div>
   </body>
 </html>

@@ -1,0 +1,24 @@
+body{
+  text-align: center;
+}
+
+#searchDiv{
+  border: solid black 5px;
+}
+
+#output, .result{
+  border: solid darkgrey 5px;
+}
+
+.result{
+  border-left: 0px;
+  border-right: 0px;
+  margin: 0px auto;
+}
+
+.searchRes{
+  border: solid black 5px;
+  border-left: 0px;
+  border-right: 0px;
+  margin: 0px auto;
+}
